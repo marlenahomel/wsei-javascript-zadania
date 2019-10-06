@@ -32,3 +32,19 @@ console.log(favouriteFruits[favouriteFruits.length - 1]);
 for (i = 0; i < favouriteFruits.length; i++) {
     console.log(favouriteFruits[i]);
 }
+
+// zadanie 3
+
+var table1 = [1,2,3,4];
+function printTable(array) {
+    for (var i = 0; i < array.length; i++) {
+        console.log(array[i]);
+    }
+
+}
+printTable(table1);
+
+
+
+
+
