@@ -53,7 +53,11 @@ Stwórz ręcznie dwuwymiarową tablicę. Wypisz ją w konsoli za pomocą funkcji
 
 ### Zadanie 5 (~ 15min - 20 min)
 
-Napisz funkcję ```create2DArray```, która przyjmuje dwa argumenty w postaci dwóch liczb całkowitych ```rows``` i ```columns```. Zadaniem funkcji jest stworzenie i zwrócenie dwuwymiarowej tablicy o podanej liczbie rzędów i kolumn. Każda komórka ma być wypełniona kolejną liczbą całkowitą. Pamiętaj o tym, że tablica ta ma zostać zwrócona przez funkcję inaczej zadanie będzie nie zaliczone.
+Napisz funkcję ```create2DArray```, która przyjmuje dwa argumenty w postaci dwóch liczb całkowitych
+```rows``` i ```columns```. Zadaniem funkcji jest stworzenie i zwrócenie dwuwymiarowej tablicy
+o podanej liczbie rzędów i kolumn. Każda komórka ma być wypełniona kolejną liczbą całkowitą.
+Pamiętaj o tym, że tablica ta ma zostać zwrócona przez funkcję inaczej zadanie będzie nie 
+zaliczone.
 Hint: Musisz użyć pętli zagnieżdżonych.
 
 ```JavaScript
