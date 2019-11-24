@@ -5,13 +5,17 @@ Pamiętaj, żeby oddzielać ćwiczenia komentarzami i pisać czytelny, dobrze sf
 
 ### Zadanie 0 Różne koszyki dla różnych klientów (~ 10min - 15min)
 
-W pliku ```app.js``` stwórz konstruktor ```Basket```. Na jego bazie stwórz obiekt, który będzie miał następujące pola:
+W pliku ```app.js``` stwórz konstruktor ```Basket```. 
+Na jego bazie stwórz obiekt, który będzie miał następujące pola:
 * products - tablica z wszystkimi produktami
 * sum - kwota do zapłaty za wszystkie produkty
 
 Do prototypu konstruktora dodaj metody:
-* ```addProduct(name, price)```, która jako parametry będzie przyjmowała nazwę produktu oraz jego cenę. Cenę podawaj jako typ number, a nazwę jako string. Umieść te dane jako obiekt w tablicy this.products.
-* ```showBasket()```, której zadaniem będzie wyświetlenie wszystkich produktów z koszyka wraz ceną, oraz kwotą do zapłaty.
+* ```addProduct(name, price)```, która jako parametry będzie przyjmowała nazwę produktu
+oraz jego cenę. Cenę podawaj jako typ number, a nazwę jako string. Umieść te dane jako obiekt
+w tablicy this.products.
+* ```showBasket()```, której zadaniem będzie wyświetlenie wszystkich produktów z 
+koszyka wraz ceną, oraz kwotą do zapłaty.
 
 Przykładowe wywołanie:
 
@@ -30,8 +34,8 @@ bruceBasket.showBasket();
 
 ### Zadanie 1 (~ 10min - 15 min)
 
-W pliku **zadanie01.js** możesz znaleźć przykładowy konstruktor dla robota. Konstruktor oczekuje, że podasz tylko imię robota.
-Metody dodane są do prototypu funkcji.
+W pliku **zadanie01.js** możesz znaleźć przykładowy konstruktor dla robota. 
+Konstruktor oczekuje, że podasz tylko imię robota. Metody dodane są do prototypu funkcji.
 Utwórz kilka robotów i poszukaj, czy w napisanym kodzie nie ma błędów.
 Nie bój się sprawdzić w konsoli jak wyglądają poszczególne roboty oraz sam konstruktor.
 
