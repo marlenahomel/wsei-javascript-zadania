@@ -33,8 +33,11 @@ Napisz odpowiedź na to pytanie w komentarzu do zadania.
 (Spójrz na element o klasie ```ex2```)
 
 Na stronie jest lista, w której musisz wpisać swoje imię i nazwisko, swój ulubiony kolor i potrawę.
+
 1. Wyszukaj odpowiednie elementy (spany) i zapisz je do  zmiennych.
+
 2. Za pomocą ```innerHTML``` wypełnij w nich odpowiednie informacje.
+
 
 ### Zadanie 3 (~ 10min - 15min)
 (Spójrz na element o klasie ```ex3```)

@@ -9,7 +9,7 @@ Pamiętaj, żeby oddzielać ćwiczenia komentarzami i pisać czytelny, dobrze sf
 
 * Stwórz funkcję ```getDatasInfo(elements)```, do której przekaż jako argument zmienną ```links``` (pamiętaj o tym, że jest to tablica)
 * stwórz w funkcji nową tablicę i wypełnij ją wartościami pobranymi z atrybutu **data** każdego elementu li
-* zwróć tą tablicę.
+* zwróć tą tablicę. +
 
 ### Zadanie 1 (~ 10min - 15min)
 Przeanalizuj kod HTML i JavaScript. W pliku **app.js** jest przygotowane kilka zmiennych, w których zapisane są
@@ -38,7 +38,9 @@ Ustaw wartość ```innerHTML``` na "Nowa wartość diva o klasie blocks". Przean
 ### Zadanie 5 (~ 5min - 10min)
 
 * Stwórz funkcję ```getClassInfo(element)```, do której przekaż jako argument zmienną ```banner```
-*  zwróć tablicę z listą klas, pobraną z przekazanego do funkcji argumentu.
+
+*  zwróć tablicę z listą klas, pobraną z przekazanego 
+do funkcji argumentu.
 
 
 ### Zadanie 6 (~ 10min - 15min)
