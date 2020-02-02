@@ -1,42 +1,43 @@
-function Calculator() {
-    this.history = [];
-
-
+function Calculator(num1, num2) {
+    this.num1 = num1;
+    this.num2 = num2
+    var operations = [];
+    this.add = function (num1, num2) {
+        var result = num1 + num2;
+        var text = "added " + num1 + " to " + num2 + " got " + result;
+        operations.push(text);
+        return result;
+    }
+    this.multiply = function (num1, num2) {
+        var result = num1 * num2;
+        var text = "multiplied " + num1 + " with " + num2 + " got " + result;
+        operations.push(text);
+        return result;
+    }
+    this.substract = function (num1, num2) {
+        var result = num1 - num2;
+        var text = "substracted " + num1 + " from " + num2 + " got " + result;
+        operations.push(text);
+        return result;
+    }
+    this.divide = function (num1, num2) {
+        var result = num1 / num2;
+        var text = "divided " + num1 + " by " + num2 + " got " + result;
+        operations.push(text);
+        return result;
+    }
+    this.printOpearations = function () {
+        for (var i = 0; i < operations.length; i++)
+            console.log(operations[i]);
+    }
+    this.clearOperations = function () {
+        operations = [];
+    }
 }
 
-Calculator.prototype.add = function (num1, num2) {
-    var result = num1 + num2;
-    return result;
-    this.history.push('added ${num1} to ${num2} got ${result}');
-}
-
-Calculator.prototype.multiply = function (num1, num2) {
-
-    var result = num1 * num2;
-    return result;
-    this.history.push("multiplied" + num1 + "with" + num2 + "got" + result);
-
-}
-
-Calculator.prototype.subtract = function (num1, num2) {
-    var result = num1 - num2;
-    return result;
-    this.history.push("subtracted" + num1 + "from" + num2 + "got" + result);
-}
-
-Calculator.prototype.divide = function (num1, num2) {
-    var result = num1 / num2;
-    return result;
-    this.history.push("divided" + num1 + "by" + num2 + "got" + result);
-}
-
-Calculator.prototype.printOperations = function () {
-    consoleTable(this.history);
-}
-
-Calculator.prototype.clearOperations = function () {
-
-}
- 
-var Calculator1 = new Calculator();
-Calculator1.add(1, 1);
+var cal1 = new Calculator();
+console.log(cal1.add(2, 2));
+console.log(cal1.substract(4, 2));
+console.log(cal1.multiply(2, 2));
+console.log(cal1.divide(4, 2));
+cal1.printOpearations();

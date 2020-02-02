@@ -1,27 +1,22 @@
-// zadanie 0 
+//Zadanie 0
+
+
 
 function Basket() {
+    products = [],
+        prices = [],
+        sum = 0,
+        this.addProduct = function (name, number) {
+            products.push(name);
+            prices.push(number);
+            sum = sum + number;
+        },
+        this.showBasket = function () {
+            for (var i = 0; i < products.length; i++)
+                console.log("produkt: " + products[i] + " cena: " + prices[i]);
 
-    this.products = [];
-    this.sum = 0
-
-    
-
-
-}
-
-Basket.prototype.addProduct = function(name, price){
-    this.products.push({
-        name: name,
-        price: price
-
-    });
-    this.sum += price;
-}
-
-Basket.prototype.showBasket = function () {
-    console.table(this.products);
-    console.log(this.sum);
+            console.log("Suma: " + sum);
+        }
 }
 
 var aliceBasket = new Basket();

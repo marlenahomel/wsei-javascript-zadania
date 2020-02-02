@@ -5,28 +5,28 @@
  */
 
 
-//Twoj komentarz ...
+//zdefiniowanie funkcji jeden()
 function jeden() {
 
-    //Twoj komentarz ...
+    //zdefiniowanie zmienna1 wewnatrz funkcji jeden().
     var zmienna1 = 1;
 
-    //Twoj komentarz ...
+    //zdefiniowanie funkcji dwa()
     function dwa() {
 
-        //Twoj komentarz ...
+        //wywo³anie zdefiniowanej wczeœniej zmienna1 
         console.log(zmienna1);
 
-        //Twoj komentarz ...
+        //zdefiniowanie zmienna2 wewn¹trz funkcji dwa()
         var zmienna2 = 3;
     }
 
-    //Twoj komentarz ...
+    //wywo³anie funkcji dwa()
     dwa();
 
-    //Twoj komentarz ...
+    //próba wywo³ania zmienna2 (funkcja jeden() nie ma dostêpu do zmiennej w funkcji zdefiniowanej wewn¹trz)
     console.log(zmienna2)
 }
 
-//Twoj komentarz ...
+//wywo³anie funkcji jeden()
 jeden()

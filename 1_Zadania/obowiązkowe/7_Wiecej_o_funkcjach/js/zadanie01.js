@@ -1,25 +1,24 @@
-
 /**
  * Zagniezdzanie funkcji.
  * Przesledz krok po kroku kazda linijke kodu. Kazda!
  * Napisz komentarze dla kazdej z linijek kodu
  */
 
-//Twoj komentarz ...
+//zdefiniowanie funkcji sortArra()
 function sortArray() {
 
-    //Twoj komentarz ...
+    //zdefiniowanie tablicy points
     var points = [41, 3, 6, 1, 114, 54, 64];
 
-    //Twoj komentarz ...
+    //metoda sortuj¹ca porównuje ze sob¹ dwa elementy tablicy - wybrany i nastêpny
     points.sort(function (a, b) {
-        //Twoj komentarz ...
+        //komenda zwraca ró¿nicê miêdzy wybranym elementem i nastêpnym, wed³ug której algorytm decyduje, który element jest wiêkszy
         return a - b;
     });
 
-    //Twoj komentarz ...
+    //funkcja zwraca posortowan¹ tablicê
     return points;
 }
 
-//Twoj komentarz ...
+//wywo³anie funkcji sortuj¹cej
 sortArray();
